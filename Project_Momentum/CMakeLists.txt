@@ -18,23 +18,21 @@ FetchContent_Declare(
 	GIT_SHALLOW TRUE
 )
 
-#FetchContent_MakeAvailable(SDL3)
-#
-#add_library(Engine STATIC Engine/src/Engine.cpp)
-#add_library(Game STATIC Game/src/Game.cpp)
+FetchContent_MakeAvailable(SDL3)
+
+add_library(Engine STATIC Engine/src/Engine.cpp)
+add_library(Game STATIC Game/src/Game.cpp)
 add_executable(MomentumGame GameApp/src/MomentumGame.cpp)
-#add_executable(EditorApp EditorApp/src/NeoEditor.cpp)
-#
-#target_include_directories(Engine PUBLIC Engine/include)
-#target_include_directories(Game PUBLIC Game/include)
-#
-#target_link_libraries(Engine PRIVATE SDL3::SDL3)
-#target_link_libraries(Game PUBLIC Engine)
-#target_link_libraries(NeoGame PRIVATE Game)
-#target_link_libraries(EditorApp PRIVATE Game)
+
+target_include_directories(Engine PUBLIC Engine/include)
+target_include_directories(Game PUBLIC Game/include)
+
+target_link_libraries(Engine PRIVATE SDL3::SDL3)
+target_link_libraries(Game PUBLIC Engine)
+target_link_libraries(MomentumGame PRIVATE Game)
+
 
 if(WIN32)
 	add_custom_target(StageRuntime COMMAND ${CMAKE_COMMAND} -E copy_if_different $<TARGET_FILE:SDL3::SDL3> $<TARGET_FILE_DIR:MomentumGame> VERBATIM)
-	#add_dependencies(NeoGame StageRuntime)
-	#add_dependencies(EditorApp StageRuntime)
+	add_dependencies(MomentumGame StageRuntime)
 endif()

@@ -1,0 +1,21 @@
+# ninja log v6
+4	71	8135255291001478	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-mkdir	86b0c5404c6f4589
+4	71	8135255291001478	D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-mkdir	86b0c5404c6f4589
+71	4688	8135255337182274	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-download	aba7170b5ccbcb45
+71	4688	8135255337182274	D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-download	aba7170b5ccbcb45
+4688	4807	8135255337242481	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-update	11a8374b30bbe27b
+4688	4807	8135255337242481	D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-update	11a8374b30bbe27b
+4810	4865	8135255338953602	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-patch	b5f6e8b866440983
+4810	4865	8135255338953602	D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-patch	b5f6e8b866440983
+4865	4926	8135255339552283	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-configure	adb8eaa3730ea6ab
+4865	4926	8135255339552283	D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-configure	adb8eaa3730ea6ab
+4926	4990	8135255340192869	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-build	518fbb40886b4ffd
+4926	4990	8135255340192869	D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-build	518fbb40886b4ffd
+4990	5047	8135255340767254	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-install	297486955a60737b
+4990	5047	8135255340767254	D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-install	297486955a60737b
+5047	5100	8135255341310435	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-test	960356575d5bcf8
+5047	5100	8135255341310435	D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-test	960356575d5bcf8
+5100	5208	8135255342375083	CMakeFiles/sdl3-populate-complete	bac39e53eab6e73e
+5100	5208	8135255342375083	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-done	bac39e53eab6e73e
+5100	5208	8135255342375083	D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/_deps/sdl3-subbuild/CMakeFiles/sdl3-populate-complete	bac39e53eab6e73e
+5100	5208	8135255342375083	D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-done	bac39e53eab6e73e

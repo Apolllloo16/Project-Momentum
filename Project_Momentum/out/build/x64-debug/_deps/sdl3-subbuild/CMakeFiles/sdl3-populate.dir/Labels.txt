@@ -1,0 +1,14 @@
+# Target labels
+ sdl3-populate
+# Source files and their labels
+D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/_deps/sdl3-subbuild/CMakeFiles/sdl3-populate
+D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/_deps/sdl3-subbuild/CMakeFiles/sdl3-populate.rule
+D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/_deps/sdl3-subbuild/CMakeFiles/sdl3-populate-complete.rule
+D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-build.rule
+D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-configure.rule
+D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-download.rule
+D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-install.rule
+D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-mkdir.rule
+D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-patch.rule
+D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-test.rule
+D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-update.rule

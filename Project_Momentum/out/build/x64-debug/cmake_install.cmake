@@ -1,8 +1,8 @@
-# Install script for directory: M:/3rd_Year/Engine/new/Project-Momentum/Project_Momentum
+# Install script for directory: D:/University/3rd_Year/316/Project-Momentum/Project_Momentum
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "M:/3rd_Year/Engine/new/Project-Momentum/Project_Momentum/out/install/x64-debug")
+  set(CMAKE_INSTALL_PREFIX "D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/install/x64-debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -32,10 +32,15 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/_deps/sdl3-build/cmake_install.cmake")
+endif()
+
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "M:/3rd_Year/Engine/new/Project-Momentum/Project_Momentum/out/build/x64-debug/install_local_manifest.txt"
+  file(WRITE "D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -51,6 +56,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "M:/3rd_Year/Engine/new/Project-Momentum/Project_Momentum/out/build/x64-debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "D:/University/3rd_Year/316/Project-Momentum/Project_Momentum/out/build/x64-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
